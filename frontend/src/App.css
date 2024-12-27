@@ -20,11 +20,17 @@
 .nav ul li{
     margin: 0 15px;
     position: relative;
+}
+
+.nav ul li a{
+    text-decoration: none;
     color: black;
+    font-weight: bold;
+    padding: 5px 10px;
     transition: all 0.3s ease;
 }
 
-.nav ul li:hover{
+.nav ul li a:hover{
     background-color: white;
     color: aqua;
     border-radius: 5px;
@@ -62,7 +68,7 @@
 
 /* home Body */
 .hero{
-    background-image: url('');
+    background-image: url('../public/airplane-1632598_1920.jpg');
     background-size: cover;
     background-position: center;
     color: black;
@@ -123,4 +129,81 @@
 .testimonials p{
     font-style: italic;
     margin: 10px 0;
+}
+
+
+/* Login page */
+.my-login{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:  0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+}
+
+.login-card h1{
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.form-group{
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+.form-group input{
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login-button{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover{
+    background-color: #555;
+}
+
+.signup-text{
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+.signup-text a{
+    color: #007bff;
+    text-decoration: none;
+}
+
+.signup-text a:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }

@@ -16,7 +16,7 @@ function Login(){
                     <button type="submit" className="login-button">Login</button>
                 </form>
                 <p className="signup-text">
-                    Don't have an account< a href="/signup">sign up</a>
+                    Don't have an account < a href="/signup">sign up</a>
                 </p>
             </div>
         </div>

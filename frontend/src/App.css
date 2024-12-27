@@ -1,0 +1,30 @@
+/* universal */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* nav bar */
+.nav{
+    background-color: aqua;
+    padding: 10px 20px;
+}
+
+.nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav ul li{
+    margin: 0 15px;
+    position: relative;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.nav ul li:hover{
+    background-color: white;
+    color: aqua;
+    border-radius: 5px;
+    cursor: pointer;
+}

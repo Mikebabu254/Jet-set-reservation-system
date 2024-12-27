@@ -17,11 +17,11 @@ function UserHome(){
                             <div className="action-card">
                                 <h3>Book a flight</h3>
                                 <p>find the best and book your flight now</p>
-                                <a href="/book" className="action-button">Book now</a>
+                                <a href="/booking" className="action-button">Book now</a>
                             </div>
                             <div className="action-card">
                                 <h3>My booking</h3>
-                                <a href="/bookings" className="action-button">View booking</a>
+                                <a href="/my-booking" className="action-button">View booking</a>
                             </div>
                             <div className="action-card">
                                 <h3>Profile</h3>

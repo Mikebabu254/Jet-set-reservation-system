@@ -7,11 +7,11 @@ function Signup (){
                 <form>
                     <div className="form-group">
                         <label htmlFor="firstname">First Name</label>
-                        <input type="text" id="firstName" placeholder="first Name"/>
+                        <input type="text" id="firstName" placeholder="first Name" required/>
                     </div>
                     <div className="form-group">
                         <label htmlFor="lastname">Last Name</label>
-                        <input type="text" id="lastName" placeholder="Last Name"/>
+                        <input type="text" id="lastName" placeholder="Last Name" required/>
                     </div>
                     <div className="form-group">
                         <label htmlFor="email">Email</label>

@@ -8,6 +8,9 @@ import UserHome from './Pages/Users/UserHome';
 import BookingFlight from './Pages/Users/BookingFlight';
 import SeatSelection from './Pages/Users/SeatSelecton';
 import MyBookings from './Pages/Users/MyBooking';
+import UserProfile from './Pages/Users/UserProfile';
+import Dashboard from './Pages/Admin/Dashboard';
+import ManageFlights from './Pages/Admin/ManageFlights';
 
 function App() {
 
@@ -21,6 +24,9 @@ function App() {
         <Route path='/booking' element={<BookingFlight/>}/>
         <Route path='/seat-selection' element={<SeatSelection/>}/>
         <Route path='/my-booking' element={<MyBookings/>}/>
+        <Route path='/profile' element={<UserProfile/>}/>
+        <Route path='/dashboard' element={<Dashboard/>}/>
+        <Route path='/admin/flights' element={<ManageFlights/>}/>
       </Routes>
     </Router>
   )
